@@ -1,7 +1,7 @@
 # QuizApplicationBackendAndFrontent
 this is Quiz application
 
-# Examfront
+# QuizAppfront
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.4.
 
@@ -28,3 +28,6 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+# QuizAppBackend
+
+backend is using springboot and mysql relational database for running the backend of this application you can create QuizApplication database in your application and after that you can run this spring boot application
