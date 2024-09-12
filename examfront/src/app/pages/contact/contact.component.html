@@ -1,0 +1,50 @@
+<app-navbar></app-navbar>
+<div class="bootstrap-wrapper">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 offset-md-3">
+        <div class="container text-center">
+          <img src="../../../assets/logo.png" width="100" height="100">
+        </div>
+        <h1 class="text-center">Contact Us !!</h1>
+
+
+        <form>
+          <!-- Username field -->
+          <mat-form-field class="full-width" appearance="outline">
+            <mat-label> Name</mat-label>
+            <input required name="username" matInput placeholder="Enter Here">
+          </mat-form-field>
+
+
+          <!-- email field -->
+          <mat-form-field class="full-width" appearance="outline">
+            <mat-label>Email</mat-label>
+            <input required name="email" type="email" matInput placeholder="Enter Here">
+          </mat-form-field>
+
+          <!-- phone field -->
+          <mat-form-field class="full-width" appearance="outline">
+            <mat-label>Mobile Number</mat-label>
+            <input required name="phone" type="number" matInput placeholder="Enter Here">
+          </mat-form-field>
+
+          <!-- content field -->
+          <mat-form-field style="width: 100%;">
+            <mat-label>Write Your Query</mat-label>
+            <textarea required rows="8" name="content" matInput placeholder="Enter here"></textarea>
+          </mat-form-field>
+
+
+
+          <div class="container text-center">
+            <button type="submit" mat-raised-button color="primary">Submit</button>
+
+          </div>
+
+        </form>
+      </div>
+    </div>
+
+  </div>
+</div>
