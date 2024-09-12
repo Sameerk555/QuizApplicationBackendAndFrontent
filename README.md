@@ -31,3 +31,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 # QuizAppBackend
 
 backend is using springboot and mysql relational database for running the backend of this application you can create QuizApplication database in your mysql workbench and after that you can run this spring boot application( i will hard coded the admin you can find credentials in ExamsserverApplication.java)
+
+## Note
+you can run npm install in frontend part of the aaplication to install node modules after that you can directly run npm start to start the application 
